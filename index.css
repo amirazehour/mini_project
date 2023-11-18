@@ -1,0 +1,478 @@
+/*header*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 67;
+    background: rgba(212, 217, 241, 0.295);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.096);
+    
+    padding: 0px 30px;
+    border-radius: 20px;
+   
+    
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0px 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+    position: relative;
+}
+
+#navbar li a:hover ,
+#navbar li a.active {
+    color: rgb(255, 255, 255);
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after
+{
+    content: "";
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    color: #ffffff;
+    bottom: -4px;
+    left: 20px;
+}
+
+
+
+
+
+.body_container1{
+    padding: 20px;
+    background-color: rgb(137, 164, 239);
+    
+    align-items: center;
+    background-image:url(images/Geometric\ Low\ Polygon\ Color\ Minimalistic\ Romantic\ Gradient\ Background\ Material\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   background-position: t;
+   height: 100vh;
+    width: 97%;
+}
+.body_container2{
+    padding: 20px;
+    background-color: rgb(137, 164, 239);
+    font-size: 25px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-items: center;
+    background-image:url(images/Geometric\ Low\ Polygon\ Color\ Minimalistic\ Romantic\ Gradient\ Background\ Material\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.landing{
+    
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 100px ;
+    
+    
+    
+}
+.landing_container1{
+    
+    
+    font-size: 30px;
+    text-align:left;
+    margin: 30px;
+    border-radius: 15px;
+    padding: 15px;
+}
+footer{
+    background-color: rgb(137, 164, 239);
+    width: 100%;
+    align-items: center;
+    background-image:url(images/Geometric\ Low\ Polygon\ Color\ Minimalistic\ Romantic\ Gradient\ Background\ Material\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#footer li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    
+}
+
+.shopping_element{
+    background-color: rgba(212, 217, 241, 0.349); 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+
+}
+
+
+.categorie{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+   
+    
+
+}
+.categorie1{
+    display: flex;
+    justify-content: space-between;
+    
+
+    
+}
+body{
+    margin: -1px;
+   
+    width: 100%;
+    
+}
+#button1{
+    background-color: rgba(212, 217, 241, 0.849);
+    padding: 15px;
+    font-size: 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.148);
+    border-radius: 15px;
+  }  
+
+
+
+
+#button1  a{
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+    position: relative;
+    
+}
+#button{
+    background-color: rgb(135, 186, 196);
+    padding: 15px;
+    font-size: 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.148);
+    border-radius: 15px;
+
+
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+
+H1{
+    font-size: 50px;
+}
+h2{
+    font-size: 25px;
+}
+@media only screen and (max-width :400px){
+  .phone{
+    width: 400px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  
+  .button1{
+    background-color: rgba(212, 217, 241, 0.849);
+    padding: 5px;
+    font-size: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.148);
+    border-radius: 15px;
+
+}
+.categorie{
+    
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+   
+    
+
+}
+
+}
+
+.CONTACT{
+    display: GRID;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color:  rgba(212, 217, 241, 0.849);
+    margin: 50px;
+    width: 500px;
+    border-radius: 15px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+}
+
+.contact-input{
+    display: GRID;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+    margin: 20px;
+   
+}
+
+#product1{
+    text-align: center;
+
+}
+
+
+
+#product1 .pro{
+    width: 20%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 2px solid  rgb(137, 164, 239);
+    border-radius: 20px;
+    margin: 15px  ;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: 0,2s ease;
+
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+    background-color:rgba(224, 212, 241, 0.849) ;
+    
+    
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px;
+}
+
+#product1 .pro .des span{
+   
+    color: #1a1a1a;
+    font-size: 12px;
+}
+
+#product1 .pro .des h4{
+   
+    font-size: 15px;
+    font-weight:700 ;
+    color: seagreen;
+}
+
+#product1 .pro .des h5{
+    
+    font-size: 14px;
+    font-weight:7000 ;
+}
+
+.pro-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#banner{
+    height: 40vh;
+
+}
+
+#banner h2{
+    font-size: 30px;
+    
+}
+
+#banner h2 span{
+    color: #ffffff;
+}
+
+#newsleter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(images/Geometric\ Low\ Polygon\ Color\ Minimalistic\ Romantic\ Gradient\ Background\ Material\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.p-sec{
+    
+    padding: 30px;
+}
+#newsleter h4{
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+#newsleter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1ac0;
+
+}
+
+#newsleter span{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+
+}
+#newsleter input{
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+}
+
+#newsleter button{
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+}
+.CONTACT button{
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    margin: 10px;
+}
+
+.CONTACT input{
+
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+}
+
+#shop{
+    padding: 20px;
+    background-color: rgb(137, 164, 239);
+    
+    align-items: center;
+    background-image:url(images/Geometric\ Low\ Polygon\ Color\ Minimalistic\ Romantic\ Gradient\ Background\ Material\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   background-position: t;
+   
+    width: 97%;
+}
+
+
+#product1 .pro1{
+    width: 20%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 2px solid  rgb(137, 164, 239);
+    border-radius: 20px;
+    margin: 15px  ;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: 0,2s ease;
+    background-color:  rgba(236, 239, 255, 0.849);
+
+}
+#product1 .pro1 img{
+    width: 100%;
+    border-radius: 20px;
+    background-color:rgba(224, 212, 241, 0.849) ;
+    
+    
+}
+
+#product1 .pro1:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro1 .des{
+    text-align: start;
+    padding: 10px;
+}
+
+#product1 .pro1 .des span{
+   
+    color: #1a1a1a;
+    font-size: 12px;
+}
+
+#product1 .pro1 .des h4{
+   
+    font-size: 15px;
+    font-weight:700 ;
+    color: seagreen;
+}
+
+#product1 .pro1 .des h5{
+    
+    font-size: 14px;
+    font-weight:7000 ;
+}
+
+.pro-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
